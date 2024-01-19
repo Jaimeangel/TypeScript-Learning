@@ -8,6 +8,7 @@ After creating a file with the ".ts" extension, it must be compiled using the co
 
 ```bash
 npx tsc src/demoType.ts --target es6 --outDir dist
+```bash
 
 - npx tsc src/demoType.ts: Specifies the ".ts" file location.
 - --target es6: Specifies that we want to compile the code into a specific ECMAScript version.
