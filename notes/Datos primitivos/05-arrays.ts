@@ -1,10 +1,6 @@
 (() => {
   const prices = [1,2,3,4,5,6, 'hola', true];
 
-  //Not possible do it
-  // prices.push('jkgdsakjgd');
-  // prices.push(true);
-  // prices.push({});
 
   prices.push(12313131);
   let products = ['hola', true];
@@ -16,6 +12,8 @@
   mixed.push(12);
   mixed.push(true)
   mixed.push('accepted')
+   //Not possible do it
+  // mixed.push({hola:1})
 
   let numbers = [1,2,3,4,5,6,7,8];
   numbers.map(item => item * 2);
